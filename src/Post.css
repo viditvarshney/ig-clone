@@ -1,5 +1,5 @@
 .post {
-  max-width: 500px;
+  max-width: 800px;
   background-color: white;
   border: 1px solid lightgray;
   margin-bottom: 45px;
@@ -25,4 +25,30 @@
 }
 .post__header > h3 > p {
   font-weight: normal;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-top: 1px solid lightgrey;
+  outline: none;
+}
+
+.post__button {
+  flex: 0;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 900;
+  background-color: transparent;
+  color: #6882a3;
+  font-size: 20px;
+  border-top: 1px solid lightgrey;
+  cursor: pointer;
 }

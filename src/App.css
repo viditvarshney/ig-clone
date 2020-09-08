@@ -5,13 +5,32 @@
   background-color: #fafafa;
 }
 
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}
+.app__posts > .fix {
+  position: fixed;
+  right: 450px;
+}
+
 .app__header {
   background-color: white;
   padding: 20px;
   object-fit: contain;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
 }
 
+.app__headerImage {
+  object-fit: contain;
+}
 .app__signup {
   display: flex;
   flex-direction: column;
