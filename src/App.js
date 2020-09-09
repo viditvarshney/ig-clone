@@ -220,6 +220,12 @@ function App() {
       ) : (
         <h3>Please LogIn in to upload</h3>
       )}
+
+      {user?.displayName ? (
+        <ImageUpload username={user.displayName} />
+      ) : (
+        <h3>Please LogIn in to upload</h3>
+      )}
     </div>
   );
 }

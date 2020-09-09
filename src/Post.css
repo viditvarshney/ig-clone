@@ -69,3 +69,11 @@
 .post__allComments {
   text-align: center;
 }
+
+.post__commentBoxLogin {
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  font-size: 25px;
+  color: gray;
+}
