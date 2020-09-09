@@ -191,6 +191,7 @@ function App() {
             <Post
               key={id}
               postId={id}
+              user={user} // signedIn user
               username={post.username}
               caption={post.caption}
               imageUrl={post.imageUrl}
@@ -217,7 +218,7 @@ function App() {
       {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ) : (
-        <h3>Plaese LogIn in to upload</h3>
+        <h3>Please LogIn in to upload</h3>
       )}
     </div>
   );

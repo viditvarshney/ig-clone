@@ -52,3 +52,20 @@
   border-top: 1px solid lightgrey;
   cursor: pointer;
 }
+
+.post__comments {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.post__modalComments {
+  line-height: 200%;
+}
+
+.post__commentCount {
+  padding-left: 20px;
+}
+
+.post__allComments {
+  text-align: center;
+}

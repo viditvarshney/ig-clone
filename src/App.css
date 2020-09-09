@@ -14,6 +14,16 @@
 .app__postsRight {
   margin-left: 20px;
 }
+.app__postsLeft {
+  min-width: 394px;
+}
+
+@media screen and (max-width: 1700px) {
+  .app__postsRight {
+    display: none;
+  }
+}
+
 .app__posts > .fix {
   position: fixed;
   right: 450px;
